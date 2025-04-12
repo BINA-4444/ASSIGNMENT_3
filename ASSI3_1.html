@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Grid</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            width: 70%;
+            margin: auto;
+            padding: 50px;
+        }
+        .grid-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            padding: 10PX;
+        }
+        
+        .item-1 { 
+            background-color: #00BFFF; 
+        }
+        .item-2 { 
+            background-color: #FF4500; 
+        } 
+        .item-3 { 
+            background-color: #4169E1; 
+        } 
+        .item-4 { 
+            background-color: #FFD700; 
+        } 
+        .item-5 { 
+            background-color: #8A2BE2; 
+        }
+        .item-6 { 
+            background-color: #32CD32; 
+        } 
+        .item-7 { 
+            background-color: #FF7F50; 
+        } 
+        .item-8 { 
+            background-color: #20B2AA; 
+        } 
+        .item-9 { 
+            background-color: #8B0000;
+        } 
+        @media (max-width: 658px){
+            .item-1 { 
+            background-color: #005eff; 
+        }
+        .item-2 { 
+            background-color: #00ffd0; 
+        } 
+        .item-3 { 
+            background-color: #e14171; 
+        } 
+        .item-4 { 
+            background-color: #c8ff00; 
+        } 
+        .item-5 { 
+            background-color: #2bcae2; 
+        }
+        .item-6 { 
+            background-color: #cd32b3; 
+        } 
+        .item-7 { 
+            background-color: #4d0a46; 
+        } 
+        .item-8 { 
+            background-color: #575e0e; 
+        } 
+        .item-9 { 
+            background-color: #ce931d;
+        } 
+        }
+    </style>
+</head>
+<body>
+
+<div class="grid-container">
+    <div class="grid-item item-1">1.</div>
+    <div class="grid-item item-2">2.</div>
+    <div class="grid-item item-3">3.</div>
+    <div class="grid-item item-4">4.</div>
+    <div class="grid-item item-5">5.</div>
+    <div class="grid-item item-6">6.</div>
+    <div class="grid-item item-7">7.</div>
+    <div class="grid-item item-8">8.</div>
+    <div class="grid-item item-9">9.</div>
+</div>
+
+</body>
+</html>
